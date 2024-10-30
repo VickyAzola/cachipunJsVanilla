@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <title>Cachipun</title>
+  </head>
+  <body>
+    <header>
+      <h1>Cachipún</h1>
+    </header>
+    <main>
+      <section>
+          <form onsubmit="userChoise(event)">
+        <h2>Elige tu ataque</h2>
+            <div class="game">
+              <label for="piedra" class="btn btn--piedra">
+                <input id="piedra" type="radio" name="cachipun" value="piedra" />
+                <img class="btn__img" src="assets/img/rock.svg" />
+                Piedra
+              </label>
+              <label for="papel" class="btn btn--papel">
+                <input id="papel" type="radio" name="cachipun" value="papel" />
+                <img class="btn__img" src="assets/img/paper.svg" />
+                Papel
+              </label>
+              <label for="tijera" class="btn btn--tijera">
+                <input id="tijera" type="radio" name="cachipun" value="tijera" />
+                <img class="btn__img" src="assets/img/scissors.svg" />
+                Tijera
+              </label>
+            </div>
+            <button id="submitBtn">Atacar</button>
+          </form>
+      </section>
+
+      <section id="batalla" class="batalla hidden">
+        <h2>Batalla</h2>
+        <div class="batalla__group">
+            <div class="batalla__box">
+                <h3>Tu</h3>
+                <div id="batalla-user"></div>
+                <p id="user-counter" class="counter">0</p>
+            </div>
+            <div class="vs">
+                <p>V/S</p>
+            </div>
+            <div class="batalla__box">
+                <h3>Máquina</h3>
+                <div id="batalla-computador"></div>
+                <p id="computer-counter" class="counter">0</p>
+            </div>
+        </div>
+      </section>
+
+      <section id="result" class="result hidden">
+      </section>
+    </main>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
