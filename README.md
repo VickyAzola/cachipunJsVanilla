@@ -1,4 +1,4 @@
-# Cachipún (HTML, CSS, Js)
+J8888# Cachipún (HTML, CSS, Js)
 
 ## Tabla de Contenidos
 
@@ -62,6 +62,6 @@ Sigue los siguientes pasos para instalar y ejecutar el proyecto en tu entorno lo
 
 3. Abre el archivo `index.html` en tu navegador.
 
-## Autore
+## Autor
 
 - **Desarrollador**: [Victoria Azola Silva](https://github.com/VickyAzola)
