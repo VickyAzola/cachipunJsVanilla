@@ -1,4 +1,4 @@
-J8888# Cachipún (HTML, CSS, Js)
+# Cachipún (HTML, CSS, Js)
 
 ## Tabla de Contenidos
 
